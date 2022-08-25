@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Fixes PHP version requirements to allow PHP 7.4 and PHP 8.0
+
 ## [1.0.0] - 2022-08-25
 
 * Rules extend the Ergebnis rules with the following modifications:
