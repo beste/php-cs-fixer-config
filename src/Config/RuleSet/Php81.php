@@ -14,9 +14,9 @@ final class Php81 implements RuleSet
     use RuleOverrides;
     private ErgebnisPhp81 $base;
 
-    public function __construct(private readonly ?string $header = null)
+    public function __construct(?string $header = null)
     {
-        $this->base = new ErgebnisPhp81($this->header);
+        $this->base = new ErgebnisPhp81($header);
     }
 
     public function name(): string

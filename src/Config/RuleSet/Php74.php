@@ -14,9 +14,9 @@ final class Php74 implements RuleSet
     use RuleOverrides;
     private ErgebnisPhp74 $base;
 
-    public function __construct(private readonly ?string $header = null)
+    public function __construct(?string $header = null)
     {
-        $this->base = new ErgebnisPhp74($this->header);
+        $this->base = new ErgebnisPhp74($header);
     }
 
     public function name(): string
