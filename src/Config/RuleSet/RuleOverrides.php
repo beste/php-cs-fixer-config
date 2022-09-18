@@ -12,8 +12,15 @@ trait RuleOverrides
             'blank_line_between_import_groups' => true,
             'global_namespace_import' => [
                 'import_classes' => true,
-                'import_constants' => false,
-                'import_functions' => true,
+                'import_constants' => null,
+                'import_functions' => null,
+            ],
+            'native_function_invocation' => [
+                'include' => [
+                    '@compiler_optimized',
+                ],
+                'scope' => 'all',
+                'strict' => true,
             ],
             'phpdoc_align' => [
                 'align' => 'left',

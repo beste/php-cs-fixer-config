@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+* `native_function_invocation`: Add leading `\` before function invocation to speed up resolving
+  * Enable only for `@compiler_optimized` functions and remove `\` of function calls not meant to have it.
+* `global_namespace_import`: Imports or fully qualifies global classes/functions/constants.
+  * Enable only for classes
+
 ## [1.0.2] - 2022-09-16
 
 * Fixes rule sets to be compatible with PHP 7.4
