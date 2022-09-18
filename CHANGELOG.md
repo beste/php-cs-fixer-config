@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-09-18
+
 * `native_function_invocation`: Add leading `\` before function invocation to speed up resolving
   * Enable only for `@compiler_optimized` functions and remove `\` of function calls not meant to have it.
 * `global_namespace_import`: Imports or fully qualifies global classes/functions/constants.
@@ -25,7 +27,8 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...main
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...main
+[1.1.0]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/beste/php-cs-fixer-config/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/beste/php-cs-fixer-config/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/beste/php-cs-fixer-config/tree/1.0.0
