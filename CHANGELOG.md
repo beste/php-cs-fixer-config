@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-10-18
+
 * `global_namespace_import`: Imports or fully qualifies global classes/functions/constants.
   * Re-enable for classes, constants, and functions
 
@@ -30,7 +32,8 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...main
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...main
+[1.2.0]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/beste/php-cs-fixer-config/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/beste/php-cs-fixer-config/compare/1.0.0...1.0.1
