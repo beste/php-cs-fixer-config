@@ -12,8 +12,8 @@ trait RuleOverrides
             'blank_line_between_import_groups' => true,
             'global_namespace_import' => [
                 'import_classes' => true,
-                'import_constants' => null,
-                'import_functions' => null,
+                'import_constants' => true,
+                'import_functions' => true,
             ],
             'native_function_invocation' => [
                 'include' => [

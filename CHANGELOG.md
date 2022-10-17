@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+* `global_namespace_import`: Imports or fully qualifies global classes/functions/constants.
+  * Re-enable for classes, constants, and functions
+
 ## [1.1.0] - 2022-09-18
 
 * `native_function_invocation`: Add leading `\` before function invocation to speed up resolving
