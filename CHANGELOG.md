@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+* Removed `friendsofphp/php-cs-fixer` as a direct dependency 
+  ([the recommended way is not to use it as a dev dependency](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer#installation))
+* Removed configs for PHP 7.4 and 8.0
+* Changed directory structure to align with [`ergebnis/php-cs-fixer-config-template`](https://github.com/ergebnis/php-cs-fixer-config-template)
+* Made all common rules explicit
+
 ## [1.2.0] - 2022-10-18
 
 * `global_namespace_import`: Imports or fully qualifies global classes/functions/constants.

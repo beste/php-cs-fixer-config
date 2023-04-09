@@ -16,9 +16,8 @@ Detailed usage instructions can be found in the
 
 ### Available configurations
 
-* [`Beste\PhpCsFixer\Config\RuleSet\Php74`](src/Config/RuleSet/Php74.php)
-* [`Beste\PhpCsFixer\Config\RuleSet\Php80`](src/Config/RuleSet/Php80.php)
-* [`Beste\PhpCsFixer\Config\RuleSet\Php81`](src/Config/RuleSet/Php81.php)
+* [`Beste\PhpCsFixer\RuleSet\Php81`](src/RuleSet/Php81.php)
+* [`Beste\PhpCsFixer\RuleSet\Php82`](src/RuleSet/Php81.php)
 
 ## Changelog
 

@@ -2,14 +2,15 @@
 
 declare(strict_types=1);
 
-use Beste\PhpCsFixer\Config;
-use Ergebnis\PhpCsFixer\Config\Factory;
+use Beste\PhpCsFixer\Config\Factory;
+use Beste\PhpCsFixer\Config\RuleSet\Php81;
 
-$config = Factory::fromRuleSet(new Config\RuleSet\Php81());
+$config = Factory::fromRuleSet(new Php81());
 
 $config
     ->getFinder()
     ->in(__DIR__)
-    ->ignoreDotFiles(false);
+    ->ignoreDotFiles(false)
+;
 
 return $config;
