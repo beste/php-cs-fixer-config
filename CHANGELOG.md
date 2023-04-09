@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2023-04-09
+
 * Removed `friendsofphp/php-cs-fixer` as a direct dependency 
   ([the recommended way is not to use it as a dev dependency](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer#installation))
 * Removed configs for PHP 7.4 and 8.0
@@ -38,7 +40,8 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...main
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.0.0...main
+[2.0.0]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/beste/php-cs-fixer-config/compare/1.0.1...1.0.2
