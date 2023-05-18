@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.1.0] - 2023-05-18
+
 * Changed `php_unit_test_annotation` style from `prefix` to `annotation`
 
 ## [2.0.0] - 2023-04-09
@@ -42,7 +44,8 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.0.0...main
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.1.0...main
+[2.1.0]: https://github.com/beste/php-cs-fixer-config/compare/2.00...2.1.0
 [2.0.0]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...1.1.0
