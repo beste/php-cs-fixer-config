@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Changed `php_unit_test_annotation` style from `prefix` to `annotation`
+
 ## [2.0.0] - 2023-04-09
 
 * Removed `friendsofphp/php-cs-fixer` as a direct dependency 
