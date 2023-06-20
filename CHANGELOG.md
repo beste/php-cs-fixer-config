@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.2.0] - 2023-06-20
+
 * Replaced deprecated `no_blank_lines_before_namespace` and `single_blank_line_before_namespace` rules with
   `blank_lines_before_namespace`
 
@@ -47,8 +49,9 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.1.0...main
-[2.1.0]: https://github.com/beste/php-cs-fixer-config/compare/2.00...2.1.0
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.2.0...main
+[2.2.0]: https://github.com/beste/php-cs-fixer-config/compare/2.1.0...2.2.0
+[2.1.0]: https://github.com/beste/php-cs-fixer-config/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...2.0.0
 [1.2.0]: https://github.com/beste/php-cs-fixer-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/beste/php-cs-fixer-config/compare/1.0.2...1.1.0
