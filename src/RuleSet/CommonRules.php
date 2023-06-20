@@ -56,6 +56,10 @@ trait CommonRules
                 ],
             ],
             'blank_line_between_import_groups' => true,
+            'blank_lines_before_namespace' => [
+                'min_line_breaks' => 2,
+                'max_line_breaks' => 2,
+            ],
             'cast_spaces' => [
                 'space' => 'single',
             ],
@@ -254,7 +258,6 @@ trait CommonRules
             'no_binary_string' => true,
             'no_blank_lines_after_class_opening' => true,
             'no_blank_lines_after_phpdoc' => true,
-            'no_blank_lines_before_namespace' => false,
             'no_break_comment' => [
                 'comment_text' => 'no break',
             ],
@@ -626,7 +629,6 @@ trait CommonRules
             'simplified_if_return' => false,
             'simplified_null_return' => true,
             'single_blank_line_at_eof' => true,
-            'single_blank_line_before_namespace' => true,
             'single_class_element_per_statement' => [
                 'elements' => [
                     'const',

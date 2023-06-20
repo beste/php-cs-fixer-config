@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+* Replaced deprecated `no_blank_lines_before_namespace` and `single_blank_line_before_namespace` rules with
+  `blank_lines_before_namespace`
+
 ## [2.1.0] - 2023-05-18
 
 * Changed `php_unit_test_annotation` style from `prefix` to `annotation`
