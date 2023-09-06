@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [2.3.0] - 2023-09-07
+
+* Replace deprecated `function_typehint_space` with `type_declaration_spaces`
+* Replace deprecated `no_spaces_inside_parenthesis` with `spaces_inside_parentheses`
+
 ## [2.2.0] - 2023-06-20
 
 * Replaced deprecated `no_blank_lines_before_namespace` and `single_blank_line_before_namespace` rules with
@@ -49,7 +54,8 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.2.0...main
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.3.0...main
+[2.3.0]: https://github.com/beste/php-cs-fixer-config/compare/2.2.0...2.3.0
 [2.2.0]: https://github.com/beste/php-cs-fixer-config/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/beste/php-cs-fixer-config/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...2.0.0
