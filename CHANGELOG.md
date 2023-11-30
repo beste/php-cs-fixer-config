@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Add support for PHP 8.3
+
 ## [2.3.0] - 2023-09-07
 
 * Replace deprecated `function_typehint_space` with `type_declaration_spaces`
