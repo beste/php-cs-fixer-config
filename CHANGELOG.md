@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.4.1] - 2023-11-30
+
 * Allow use of newer PHP CS Fixer versions
 
 ## [2.4.0] - 2023-11-30
@@ -60,8 +62,10 @@
   * `php_unit_test_class_requires_covers`: Tests don't require `@covers` annotations
   * `yoda_style`: Condition styles are not enforced
 
-[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.4.0...main
-[2.3.0]: https://github.com/beste/php-cs-fixer-config/compare/2.3.0...2.4.0
+[Unreleased]: https://github.com/beste/php-cs-fixer-config/compare/2.4.1...main
+[2.4.1]: https://github.com/beste/php-cs-fixer-config/compare/2.4.0...2.4.1
+[2.4.0]: https://github.com/beste/php-cs-fixer-config/compare/2.3.0...2.4.0
+[2.3.0]: https://github.com/beste/php-cs-fixer-config/compare/2.2.0...2.3.0
 [2.2.0]: https://github.com/beste/php-cs-fixer-config/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/beste/php-cs-fixer-config/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/beste/php-cs-fixer-config/compare/1.2.0...2.0.0
