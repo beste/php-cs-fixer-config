@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Allow use of newer PHP CS Fixer versions
+
 ## [2.4.0] - 2023-11-30
 
 * Add support for PHP 8.3
