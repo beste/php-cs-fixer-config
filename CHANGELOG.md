@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [3.1.1] - 2024-07-23
+
 * Fix `multiline_whitespace_before_semicolons` configuration
 
 ## [3.1.0] - 2024-07-23
