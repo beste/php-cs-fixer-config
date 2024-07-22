@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Move the semicolon to the new line for chained calls (`multiline_whitespace_before_semicolons`) 
+
 ## [3.0.0] - 2024-07-23
 
 * Reset rules:

@@ -13,6 +13,9 @@ trait CommonRules
     {
         return [
             '@PER-CS2.0' => true,
+            'multiline_whitespace_before_semicolons' => [
+                'strategy' => ['new_line_for_chained_calls'],
+            ],
             'no_unused_imports' => true,
             'ordered_imports' => [
                 'case_sensitive' => true,
