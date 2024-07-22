@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [3.0.0] - 2024-07-23
+
 * Reset rules:
   * Use PER Coding Style 2.0
   * Remove unused imports
