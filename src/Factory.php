@@ -11,6 +11,7 @@ declare(strict_types=1);
 namespace Beste\PhpCsFixer\Config;
 
 use PhpCsFixer\Config;
+use PhpCsFixer\Runner\Parallel\ParallelConfigFactory;
 
 final class Factory
 {
@@ -34,7 +35,7 @@ final class Factory
         }
 
         $config = new Config($ruleSet->name());
-
+        $config->setParallelConfig(ParallelConfigFactory::detect());
         $config->setRiskyAllowed(true);
         $config->setRules(array_merge(
             $ruleSet->rules(),
