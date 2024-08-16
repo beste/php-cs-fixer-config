@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Add support for PHP 8.4
+
 ## [3.1.1] - 2024-07-23
 
 * Fix `multiline_whitespace_before_semicolons` configuration
