@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+## 3.4.0 - 2026-11-21
+
+* Added support for PHP 8.6
+
 ## 3.2.0 - 2024-08-17
 
 * Add support for PHP 8.4
